@@ -1,11 +1,16 @@
-import Nav from "../components/navbar"
-import ImageDetail from "../components/imageDetail"
+import { Container } from "react-bootstrap"
+
+import Nav from "../components/Nav/navbar"
+
+import CardDetailProduct from "../components/card/cardDetailProduct"
 
 function DetailProduct() {
     return (
         <div>
             <Nav />
-            <ImageDetail />
+            <Container className="d-flex m-3 p-4">
+                <CardDetailProduct />
+            </Container>
         </div>
     )
 }

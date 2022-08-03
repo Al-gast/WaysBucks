@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
+import Dropdowns from './dropdowns'
 
-import Logo from '../assets/logo.svg'
-import Basket from '../assets/basket.svg'
-import User from '../assets/user.svg'
+import Logo from '../../assets/logo.svg'
+import Basket from '../../assets/basket.svg'
 
 function Nav() {
     return (
@@ -32,15 +32,7 @@ function Nav() {
                 alt="Basket"
             />
             </Navbar.Text>
-            <Navbar.Text className='ms-4'>
-            <img
-                src={User}
-                width="40"
-                height="40"
-                className="d-inline-block align-top"
-                alt="User img"
-            />
-            </Navbar.Text>
+            <Navbar.Text className='ms-4'><Dropdowns/></Navbar.Text>
             </Navbar.Collapse>
         </Container>
         </Navbar>
