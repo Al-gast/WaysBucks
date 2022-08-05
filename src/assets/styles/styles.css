@@ -1,0 +1,216 @@
+p{
+    font-size: 14px;
+}
+
+/* Home Page */
+.home {
+    margin-top: 20px;
+    border: none;
+    
+}
+
+#card-home{
+    background: #BD0707;
+    border-radius: 10px;
+    width: 958px;
+    height: 400px;
+    left: 85px;
+}
+.img-1st{
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+}
+.img-2nd{
+    position: absolute;
+    left: 15rem;
+    top: 20rem;
+}
+.img-3rd{
+    position: absolute;
+    left: 49.5rem;
+    top: 19rem;
+}
+.img-4th{
+    position: absolute;
+    left: 36.5rem;
+    top: 0rem;
+}
+#img-main-bg{
+    position: absolute;
+    width: 451px;
+    height: 324px;
+    left: 39rem;
+    top: 1.4rem;
+}
+#card-home .title-card p {
+    width: 357px;
+    height: 65px;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 65px;
+}
+.content-card .ms-5{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFF;
+}
+.footer-card p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFF;
+    max-width: 32rem;
+}
+.footer-content {
+    width: 192px;
+    height: 49px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 49px;
+    color: #BD0707;
+}
+.price-drink p {
+    color : #974A4A;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -0.7rem;
+}
+
+.teks {
+    width: 195px;
+    height: 49px;
+    left: 196px;
+    top: 619px;
+    position: absolute;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 49px;
+    color: #BD0707;
+}
+
+
+/* Detail Product */
+.detailProductContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 6vw;
+    margin: 4vh auto;
+}
+.totalDetailProduct{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}
+.colorPrimary{
+    color: #BD0707;
+}
+.bgColorPrimary{
+    background-color: #BD0707;
+}
+.btnAddToCart{
+    display: grid;
+    border: none;
+    width: 100%;
+}
+.btnAddToCart:hover{
+    background-color: forestgreen;
+}
+.colorSecondary{
+    color: #974a4a;
+}
+.topping-datas{
+    min-width: 7rem;
+}
+.img-data-toping p {
+    width: 160px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BD0707;
+}
+.img-data-toping img{
+    margin-bottom: 2rem;
+    width: 60px;
+}
+
+
+/* Cart */
+.listPaymentInCart{
+    display: flex;
+    justify-content: space-between;
+}
+.cardOrder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardOrderCoffee{
+    display: flex;
+    align-items: center;
+}
+.cardMyCart{
+    display: flex;
+    justify-content: space-between;
+}
+.cardMyCartLeft{
+    flex: 60%;
+    margin-right: 2vw;
+}
+.cardMyCartRight{
+    flex: 40%;
+    margin-left: 2vw;
+}
+hr{
+    color: #974a4a;
+    border-top: 2px solid;
+}
+
+/* Admin */
+table{
+    border: 1px solid;
+    width: 10vw;
+}
+thead{
+    background-color: #e5e5e5;
+}
+th{
+    border: 1px solid  #e5e5e5;
+}
+td{
+    border: 1px solid #e5e5e5;
+}
+.tdPrice{
+    color: #061e99;
+}
+.statusSuccess{
+    color: #78a85a;
+}
+.statusCancel{
+    color: #e83939;
+}
+.statusWaiting{
+    color: #ff9900;
+}
+.statusWay{
+    color: #00d1ff;
+}
+
+/* Profile */
+.myProfileContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.cardProfile{
+    display: flex;
+}

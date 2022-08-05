@@ -14,23 +14,23 @@ function CardDetailProduct() {
             </div>
             <div>
                 <div>
-                    <h1 className=''>Ice Coffe Palm Sugar</h1>
-                    <p>Rp.27.000</p>
+                    <h1 className='colorPrimary'>Ice Coffe Palm Sugar</h1>
+                    <p className='colorSecondary'>Rp.27.000</p>
                 </div>
                 <div>
-                    <p>Toping</p>
-                    <Figure>
-                        <Figure.Image src={Toping1} width='60'/>
-                        <Figure.Caption>
+                    <h5 className='colorSecondary'>Toping</h5>
+                    <Figure >
+                        <Figure.Image src={Toping1} width='50'/>
+                        <Figure.Caption className='colorPrimary'>
                             Bubble Tea Glatin
                         </Figure.Caption>
                     </Figure>
                 </div>
                 <div className='totalDetailProduct'>
-                    <p>Total</p>
-                    <p>Rp.27.000</p>
+                    <h5 className='colorSecondary'>Total</h5>
+                    <h5 className='colorSecondary'>Rp.27.000</h5>
                 </div>
-                <div><Button className='colorPrimary'>Add To Cart</Button>{' '}</div>
+                <div><Button className='btnAddToCart bgColorPrimary'>Add To Cart</Button>{' '}</div>
             </div>
         </Container>
     );
