@@ -10,7 +10,7 @@ function NavbarAdmin() {
     return (
         <Navbar>
         <Container>
-            <Link to={'/'}>
+            <Link to={'/transaction'}>
                 <img
                     src={Logo}
                     width="60"

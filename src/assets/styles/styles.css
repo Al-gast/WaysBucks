@@ -12,9 +12,17 @@
 .f9{
     font-size: 9px;
 }
-button:focus{
-    display: none;
+.f12{
+    font-size: 12px;
 }
+button:focus{
+    background-color: #BD0707 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+/* button:active{
+    background-color: transparent;
+} */
 
 /* HOME */
 .home {
@@ -240,6 +248,9 @@ button:focus{
 }
 .topping-datas{
     min-width: 7rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .img-data-toping p {
     width: 160px;
@@ -264,6 +275,19 @@ button:focus{
 }
 .checkInput{
     display: none;
+}
+.circle{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 0.7rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 0px 0px 15px 20px;
 }
 
 
@@ -397,4 +421,75 @@ text-align: center;
 .dropdownText{
     text-decoration: none;
     font-weight: 500;
+}
+
+/* ADD-PRODUCT ================= */
+#add-product {
+    /* width: 958px; */
+    height: 400px;
+    left: 85px;
+}
+
+.left-side {
+    /* width: 550px; */
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.left-side h1 {
+    /* width: 133px; */
+    height: 22px;
+    left: 87px;
+    top: 230px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #BD0707;
+
+}
+
+#input {
+    box-sizing: border-box;
+    /* width: 664px; */
+    height: 50px;
+    left: 87px;
+    top: 324px;
+    margin-bottom: 50px;
+    background: rgba(224, 200, 200, 0.25);
+    border: 3px solid #BD0707;
+    border-radius: 5px;
+}
+
+.btn-product {
+    font-style: normal;
+    width: 576px;
+    height: 40px;
+    background: #BD0707;
+    border-radius: 5px;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.card-side {
+    flex-wrap: wrap;
+    display: flex !important;
+    align-items: center;
+    margin: 10px auto;
+    padding: 70px auto;
+    padding-left: 30px;
+    gap: 10px;
+    flex-direction: row !important;
+}
+
+.card-side img {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 50px;
 }

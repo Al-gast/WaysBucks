@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import Cart from "./pages/Cart";
 import Transaction from "./pages/Transaction";
 import Profile from "./pages/Profile";
+import AddProduct from "./pages/AddProduct";
+import AddToping from './pages/AddToping'
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/cart" element={ <Cart /> } />
         <Route path="/transaction" element={ <Transaction /> } />
         <Route path="/profile" element={ <Profile /> } />
+        <Route path="/add-product" element={ <AddProduct /> } />
+        <Route path="/add-toping" element={ <AddToping /> } />
       </Routes>
     </Router>
   );

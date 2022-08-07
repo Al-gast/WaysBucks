@@ -8,7 +8,8 @@ import DropdownsUser from './DropdownUser'
 import Logo from '../../assets/logo.svg'
 import Basket from '../../assets/basket.svg'
 
-function NavbarUser() {
+function NavbarUser({counter}) {
+    console.log(counter);
     return (
         <Navbar>
         <Container>
@@ -23,14 +24,25 @@ function NavbarUser() {
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
-            <Link to={'/cart'}>
-            <img
-                src={Basket}
-                width="28"
-                className="d-inline-block align-top"
-                alt="Basket"
-            />
-            </Link>
+            <div className={
+                counter === undefined
+                ? 'd-none'
+                : counter === 0
+                ? 'd-none'
+                : 'circle'
+                }
+                >
+                {counter}
+            </div>
+
+                <Link to={'/cart'}>
+                <img
+                    src={Basket}
+                    width="28"
+                    className="d-inline-block align-top"
+                    alt="Basket"
+                />
+                </Link>
             </Navbar.Text>
             <Navbar.Text className='ms-4'>
                 <DropdownsUser/>
