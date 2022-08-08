@@ -17,25 +17,31 @@ const AddProduct = () => {
                         id="input"
                         type="text"
                         name=""
-                        placeholder="Name Product"/>
+                        placeholder="Name Product"
+                        className='input'/>
                     </Form.Group>
                     <Form.Group className="mb-3">
                         <Form.Control
                         id="input"
                         type="number"
                         name=""
-                        placeholder="Price" />
+                        placeholder="Price"
+                        className='input'
+                        />
                     </Form.Group>
-                    <Form.Group className="mb-3">
-                        <Form.Control
-                        id="input"
+                    <input
                         type="file"
-                        name=""
-                        placeholder="Photo Product" />
-                        {/* <label for="upload" className="label-file-add-product">
-                            <img className="position-absolute" src={FileImg} alt=''/>
-                        </label> */}
-                    </Form.Group>
+                        id="addProductImage"
+                        hidden
+                        className="photoProduct"
+                        name="productImg"
+                    />
+                    <label
+                        htmlFor="addProductImage"
+                        className='addProductImage'
+                        >
+                        <img src={FileImg} alt="paperClip" />
+                    </label>
                     <div className="d-grid gap-2">
                         <Button className="btn-product mx-auto">
                         Add Product

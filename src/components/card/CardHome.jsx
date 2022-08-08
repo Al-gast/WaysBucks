@@ -6,7 +6,7 @@ import DummyDrink from '../../DummyData/Drink'
 export default function Book() {
     return (
         <Container className="my-5" >
-            <h1 className='teks'>Let's Order</h1>
+            <h1 className='colorPrimary fw-bold'>Let's Order</h1>
             <Row>
                 {DummyDrink.map((items, index) =>
                     <Col className='mt-4'>

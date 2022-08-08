@@ -17,6 +17,7 @@ function DetailProduct() {
     const data = DummyDrink[parseInt(params.id - 1)]
     const [topping] = useState(DummyTopping)
 
+    //check
     const [show, setShow] = useState(false)
     const handleCheck = () =>{
         if(show === false){
@@ -27,6 +28,7 @@ function DetailProduct() {
     }
 
     const [toping, setToping] = useState([])
+    console.log(toping);
     const handleOnChange = (e) => {
         let updateToping = [...toping]
         if(e.target.checked){

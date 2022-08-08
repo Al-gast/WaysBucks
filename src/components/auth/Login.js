@@ -6,6 +6,7 @@ import { UserContext } from '../../context/UserContext';
 
 function Login() {
 
+  // switch
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -23,6 +24,7 @@ function Login() {
     setShow(true)
     setShows(false)
   }
+  // END Switch
 
   const [form, setForm] = useState({
     name: '',

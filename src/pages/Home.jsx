@@ -25,11 +25,11 @@ console.log(state.isLogin);
     return (
         <>
         {state.isLogin === false?<NavbarHome/>:<NavbarUser/>}
-        <Container className='home'>
+        <Container className='home m-0'>
             <Row>
                 <Col className="">
-                    <div className="card-item mt-2">
-                        <Card id="card-home" className="mt-5">
+                    <div className=" mt-2">
+                        <Card id="card-home" className="mt-5 ">
                             <div className="title-card mt-5 ms-1">
                                 <p className="mt-3 ms-5">
                                     WAYSBUCK
@@ -43,7 +43,7 @@ console.log(state.isLogin);
                             <div className="footer-card ms-5 mt-3">
                                 <p className='ms-3'>
                                 We have temporarily closed our in-store cafes, but select grocery and drive-thru locations remaining open. Waysbucks Drivers is also available
-                                <br/><br/>Let's Order...
+                                <br/><br/><span className='colorPrimary fw-bold'>Let's Order...</span>
                                 </p>
                             </div>
                                 <Background/>
