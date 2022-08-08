@@ -4,7 +4,7 @@ const datas = [
         name : 'Sugeng No Pants',
         address : 'Cileungsi',
         postCode :16820,
-        income : 69.000,
+        income : 69000,
         status :'Waiting Approve'
     },
     {
@@ -12,7 +12,7 @@ const datas = [
         name : 'Haris',
         address : 'Serang',
         postCode :42111,
-        income : 30.000,
+        income : 30000,
         status :'Success'
     },
     {
@@ -20,7 +20,7 @@ const datas = [
         name : 'Aziz',
         address : 'Bekasi',
         postCode :13450,
-        income : 28.000,
+        income : 28000,
         status :'Cancel'
     },
     {
@@ -28,7 +28,7 @@ const datas = [
         name : 'Lae',
         address : 'Tanjung',
         postCode :21331,
-        income : 30.000,
+        income : 30000,
         status :'On The Way'
     }
 
